@@ -97,6 +97,26 @@ main li { margin-bottom: 0.5rem; }
 
 .disclaimer { font-size: 0.9rem; color: var(--muted); }
 
+.apps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 1.5rem;
+}
+.app-card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  background: var(--bg);
+}
+.app-card h3 { margin: 0 0 0.5rem; font-size: 1.2rem; }
+.app-card h3 a { color: var(--navy); text-decoration: none; }
+.app-card h3 a:hover, .app-card h3 a:focus { text-decoration: underline; }
+.app-card p { margin: 0.5rem 0; }
+.app-card--soon { background: var(--bg-soft); }
+.app-card--soon h3 { color: var(--muted); }
+.app-links { font-size: 0.95rem; }
+
 .site-footer {
   background: var(--bg-soft);
   border-top: 1px solid var(--border);

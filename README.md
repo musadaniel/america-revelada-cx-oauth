@@ -1,16 +1,15 @@
-# America Revelada CX — sitio web
+# Aplicaciones de Muviproject — sitio web
 
-Sitio web estático y público de la aplicación OAuth **America Revelada CX**, publicado con GitHub Pages en https://cx.muviproject.com/.
+Portal estático y público de las aplicaciones propias de MuViProject, publicado con GitHub Pages en https://apps.muviproject.com/.
 
-## Páginas
+## Estructura
 
-- `/` — Presentación de la aplicación.
-- `/privacidad/` — Política de privacidad.
-- `/terminos/` — Términos de uso.
+- `/` — Portal general de aplicaciones.
+- `/america-revelada-cx/` — America Revelada CX: herramienta local de Windows para automatizar la preedición de América Revelada en DaVinci Resolve.
+- `/america-revelada-cx/privacidad/` — Política de privacidad de America Revelada CX.
+- `/america-revelada-cx/terminos/` — Términos de uso de America Revelada CX.
 
-## Qué es America Revelada CX
-
-Herramienta local de Windows para automatizar la preedición del programa América Revelada dentro de DaVinci Resolve. Acceso a Google exclusivamente de lectura, procesamiento local, sin servidor propio y sin envío de datos a terceros.
+Para agregar una aplicación nueva, crear su carpeta con su propio `index.html` y una ficha en el portal (`index.html`).
 
 ## Contacto
 
